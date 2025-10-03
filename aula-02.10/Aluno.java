@@ -14,7 +14,7 @@ public class Aluno {
         this.nota2 = nota2;
     }
 
-    public void calculaMedia() {
-        this.media = (nota1 + nota2) / 2;
+    public double calculaMedia() {
+        return media = (nota1 + nota2) / 2;
     }
 }

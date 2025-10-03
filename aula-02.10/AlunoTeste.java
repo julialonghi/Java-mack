@@ -4,7 +4,7 @@ public class AlunoTeste {
         Aluno aluno2 = new Aluno("ana", 10, 8);
 
         aluno2.calculaMedia();
-        System.out.printf("\nMédia: %.2f\n", aluno2.media);
+        System.out.printf("Média: %.2f\n", aluno2.media);
 
     }
 }

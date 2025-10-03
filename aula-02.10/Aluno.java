@@ -2,7 +2,6 @@ public class Aluno {
     private String nome;
     private double nota1;
     private double nota2;
-    public double media = 0;
 
     public Aluno(String nome) {
         this.nome = nome;
@@ -15,6 +14,10 @@ public class Aluno {
     }
 
     public double calculaMedia() {
-        return media = (nota1 + nota2) / 2;
+        return (nota1 + nota2) / 2;
+    }
+
+    public String getNome() {
+        return this.nome;
     }
 }

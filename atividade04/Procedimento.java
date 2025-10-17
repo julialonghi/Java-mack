@@ -6,7 +6,7 @@ public class Procedimento {
     public Procedimento(String nome, int duracao, double preco) {
         this.nome = nome;
         this.duracaoMinutos = duracao;
-        this.preco = preco;
+        this.precoPorSessao = preco;
     }
 
     public int getDuracaoMinutos() {

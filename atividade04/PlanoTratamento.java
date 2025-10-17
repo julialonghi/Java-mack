@@ -5,7 +5,7 @@ public class PlanoTratamento {
     ArrayList<Atendimento> atendimentos;
 
     public PlanoTratamento() {
-
+        atendimentos = new ArrayList<Atendimento>();
     }
 
     public void adicionaAtendimento(Atendimento a) {
